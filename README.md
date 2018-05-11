@@ -11,3 +11,8 @@ If no arguments are specified, the user will be prompted for input in the consol
 You can simply hit ENTER and the application will run with the default link provided:
 
 https://jsainsburyplc.github.io/serverside-test/site/www.sainsburys.co.uk/webapp/wcs/stores/servlet/gb/groceries/berries-cherries-currants6039.html
+
+NOTES:
+- The kcal_per_100g information is missing as it is not scraped in the current stage of the project
+- There is potentially a bug when scraping a multi-line description for a product's page
+- No tests included at this point.
